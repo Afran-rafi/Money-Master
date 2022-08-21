@@ -26,33 +26,33 @@
                 <h1 class="text-center font-bold">Income</h1>
                 <div class="flex mt-4 gap-4">
                     <p>Income:</p>
-                    <input type="text">
+                    <input id="income-input" type="text">
                 </div>
 
                 <h1 class="text-center font-bold mt-4">Expenses</h1>
                 <div class="flex mt-4 gap-8">
                     <p>Food:</p>
-                    <input type="text">
+                    <input id="food-input" type="text">
                 </div>
                 <div class="flex mt-4 gap-9">
                     <p>Rent:</p>
-                    <input type="text">
+                    <input id="rent-input" type="text">
                 </div>
                 <div class="flex mt-4 gap-4">
                     <p>Clothes:</p>
-                    <input type="text">
+                    <input id="clothes-input" type="text">
                 </div>   
-                <button class="mt-8 cal-btn px-6 py-1 text-white">Calculate</button> 
-                <h1 class="mt-4 font-bold">Total Expenses: <span>00</span></h1>
-                <h1 class="mt-4 font-bold">Balance: <span>00</span></h1>
+                <button id="calculate-btn" class="mt-8 cal-btn px-6 py-1 text-white">Calculate</button> 
+                <h1 class="mt-4 font-bold">Total Expenses: $<span id="total-expenses">00</span></h1>
+                <h1 class="mt-4 font-bold">Balance: $<span id="balance">00</span></h1>
                 <div class="flex mt-6 gap-4">
                     <p>Save:</p>
-                        <input class="save-input" type="text">
+                        <input id="save-input" class="save-input" type="text">
                         <h1>%</h1>
-                        <button class="cal-btn px-4 lg:px-10 py-1 text-white">Save</button>
+                        <button id="save-btn" class="cal-btn px-4 lg:px-10 py-1 text-white">Save</button>
                 </div>
-                <h1 class="mt-4 font-bold">Saving Amount: <span>00</span></h1>
-                <h1 class="mt-4 font-bold">Remaining Balance: <span>00</span></h1>
+                <h1 class="mt-4 font-bold">Saving Amount: <span id="save-amount">00</span></h1>
+                <h1 class="mt-4 font-bold">Remaining Balance: <span id="remaining-balance">00</span></h1>
             </div>
         </section>
     </main>
