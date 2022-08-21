@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-4xl font-bold color text-center mt-5">Money Master</h1>
+    <main class="grid lg:grid-cols-2 grid-cols-1 gap-10 m-10">
+
+        <!-- Image Part -->
+
+        <section class="image-section">
+            <div>
+                <img class="image" src="Images/Money-Master.png" alt="">
+            </div>
+        </section>
+
+        <!-- Functional Part -->
+
+        <section class="functional-section bg-gray-100 h">
+            <div class="flex justify-center items-center flex-col mt-6">
+                <h1 class="text-center font-bold">Income</h1>
+                <div class="flex mt-4 gap-4">
+                    <p>Income:</p>
+                    <input type="text">
+                </div>
+
+                <h1 class="text-center font-bold mt-4">Expenses</h1>
+                <div class="flex mt-4 gap-8">
+                    <p>Food:</p>
+                    <input type="text">
+                </div>
+                <div class="flex mt-4 gap-9">
+                    <p>Rent:</p>
+                    <input type="text">
+                </div>
+                <div class="flex mt-4 gap-4">
+                    <p>Clothes:</p>
+                    <input type="text">
+                </div>   
+                <button class="mt-8 cal-btn px-6 py-1 text-white">Calculate</button> 
+                <h1 class="mt-4 font-bold">Total Expenses: <span>00</span></h1>
+                <h1 class="mt-4 font-bold">Balance: <span>00</span></h1>
+                <div class="flex mt-6 gap-4">
+                    <p>Save:</p>
+                        <input class="save-input" type="text">
+                        <h1>%</h1>
+                        <button class="cal-btn px-4 lg:px-10 py-1 text-white">Save</button>
+                </div>
+                <h1 class="mt-4 font-bold">Saving Amount: <span>00</span></h1>
+                <h1 class="mt-4 font-bold">Remaining Balance: <span>00</span></h1>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Tailwind Connected -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- JavaScript Connected -->
+    <script src="JS/app.js"></script>
+</body>
+</html>

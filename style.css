@@ -1,0 +1,25 @@
+.color{
+    color: #31A5AC;
+}
+
+.image{
+    height: 570px;
+}
+
+.h{
+    height: 570px;
+}
+
+.cal-btn{
+    background-color: #59A5FF;;
+}
+
+@media screen and (max-width:640px) {
+    .save-input{
+        width: 100px;
+        height: 35px;
+    }
+    .image{
+        height: auto;
+    }
+}
